@@ -1,0 +1,7 @@
+{
+  "tasks": [
+    { "title": "Design API", "estimatedHours": 5, "dueDate": "2025-10-25", "dependencies": [] },
+    { "title": "Implement API", "estimatedHours": 10, "dueDate": "2025-10-28", "dependencies": ["Design API"] },
+    { "title": "Test API", "estimatedHours": 4, "dueDate": "2025-10-30", "dependencies": ["Implement API"] }
+  ]
+}
